@@ -68,7 +68,6 @@ class Taquin {
       if (nombre != 0) {
         for (int y = x; y >= 0; y--) {
           if (this._taquin[y] > nombre) {
-            //print(this._taquin[y].toString() + nombre.toString());
             niveau++;
           }
         }
@@ -153,8 +152,6 @@ class Taquin {
       this._taquin[index] = nombreReset;
       this._taquin[indexZero] = nombre;
       _incrementNombreDeCoups();
-      print(_niveauDeMelance());
-      print(_isSolvable());
     }
   }
 
@@ -171,7 +168,6 @@ class Taquin {
         this._taquin[8] == 0) {
       fini = true;
     }
-    print(_niveauDeMelance());
     return fini;
   }
 }

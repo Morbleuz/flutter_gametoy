@@ -18,12 +18,30 @@ class Home extends StatelessWidget {
                 'Bienvenue sur le meilleur émulateur au monde',
                 style: TextStyle(),
               ),
-              ElevatedButton(
-                  onPressed: () => Navigator.pushNamed(context, '/route2'),
-                  child: const Text('Taquin')),
-              ElevatedButton(
-                  onPressed: () => Navigator.pushNamed(context, '/route3'),
-                  child: Text('Tic Tac Toe')),
+              const Padding(padding: EdgeInsets.all(20)),
+              SizedBox(
+                width: 200,
+                height: 60,
+                child: ElevatedButton(
+                    style: const ButtonStyle(
+                      backgroundColor:
+                          MaterialStatePropertyAll<Color>(Colors.black),
+                    ),
+                    onPressed: () => Navigator.pushNamed(context, '/route2'),
+                    child: const Text('Taquin')),
+              ),
+              const Padding(padding: EdgeInsets.all(10)),
+              SizedBox(
+                width: 200,
+                height: 60,
+                child: ElevatedButton(
+                    style: const ButtonStyle(
+                      backgroundColor:
+                          MaterialStatePropertyAll<Color>(Colors.black),
+                    ),
+                    onPressed: () => Navigator.pushNamed(context, '/route3'),
+                    child: const Text('Tic Tac Toe')),
+              ),
             ],
           ),
         ));
