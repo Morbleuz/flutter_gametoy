@@ -41,6 +41,6 @@ https://github.com/Morbleuz/flutter_gametoy/issues
 
 ## Auteurs
 
-Laude Axel
+Laude Axel  
 Profil Linkedin : https://fr.linkedin.com/in/axel-laude-b9620a228
 
