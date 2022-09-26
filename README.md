@@ -8,6 +8,12 @@ Création d'un menu comprenant un SplashScreen et deux jeux (Taquin, Morpion).
 
 Le but de ce projet est de créer un menu laissant à l'utilisateur la possibilité de naviguer pour jouer aux différents jeux.
 
+## Capture d'écran de l'application 
+
+Le menu principal  
+  
+![screenshot](/screen.png)
+
 ## Allons-y
 
 ### Dépendances
