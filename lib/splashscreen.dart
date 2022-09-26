@@ -16,19 +16,24 @@ class SplashScreenState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Container(
-      color: Colors.white,
+    return Expanded(
+        child: Container(
+      color: Colors.black,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          const Text(
+            'G a m e To y',
+            style: TextStyle(color: Colors.white, fontFamily: 'Arcade'),
+          ),
           SizedBox(
             child: Image.asset('assets/images/logo.png'),
           ),
           const CircularProgressIndicator(
-            color: Colors.black,
+            color: Colors.white,
           )
         ],
       ),
-    );
+    ));
   }
 }
